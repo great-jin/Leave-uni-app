@@ -1,0 +1,119 @@
+{
+	"pages": [
+	{
+		"path": "pages/mainPage/mainpage",
+		"style": {
+			"navigationBarTitleText": "主页"
+		}
+	},
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "个人中心"
+		}
+	},
+	{
+		"path": "pages/index/information",
+		"style": {
+			"navigationBarTitleText": "个人信息"
+		}
+	},
+	{
+		"path": "pages/mainPage/applytable",
+		"style": {
+			"navigationBarTitleText": "申请表"
+		}
+	},
+	{
+		"path": "pages/question/inform",
+		"style": {
+			"navigationBarTitleText": "通知公告"
+		}
+	},
+	{
+		"path": "pages/question/problem",
+		"style": {
+			"navigationBarTitleText": "常见问题"
+		}
+	},
+	{
+		"path": "pages/undone/waitting",
+		"style": {
+			"navigationBarTitleText": "待审批"
+		}
+	},
+	{
+		"path": "pages/finish/done",
+		"style": {
+			"navigationBarTitleText": "已完成"
+		}
+	},
+	{
+		"path": "pages/finish/done2",
+		"style": {
+			"navigationBarTitleText": "已完成"
+		}
+	},
+	{
+		"path": "pages/finish/evaluate",
+		"style": {
+			"navigationBarTitleText": "评分评价"
+		}
+	},
+	{
+		"path": "pages/finish/donelist",
+		"style": {
+			"navigationBarTitleText": "已完成"
+		}
+	},
+	{
+		"path": "pages/undone/waitlist",
+		"style": {
+			"navigationBarTitleText": "待审核"
+		}
+	}
+	],
+	
+	"tabBar":{
+	        "color":"#333",
+	        "selectedColor":"deepskyblue",
+	        "backgroundColor":"#DDDDDD",
+	        "borderStyle":"black",
+	        "list":[
+	            {
+	                "pagePath":"pages/mainPage/mainpage",
+	                "text":"待提交",
+	                "iconPath":"static/tabBar_images/time.png",
+	                "selectedIconPath":"static/tabBar_images/time_act.png"
+	            },
+	            {
+	                "pagePath":"pages/undone/waitlist",
+	                "text":"待审核",
+	                "iconPath":"static/tabBar_images/wait.png",
+	                "selectedIconPath":"static/tabBar_images/wait_act.png"
+	            },
+	            {
+	                "pagePath":"pages/finish/donelist",
+	                "text":"已完成",
+	                "iconPath":"static/tabBar_images/finish.png",
+	                "selectedIconPath":"static/tabBar_images/finish_act.png"
+	            },
+	            {
+	                "pagePath":"pages/index/index",
+	                "text":"我的",
+	                "iconPath":"static/tabBar_images/me.png",
+	                "selectedIconPath":"static/tabBar_images/me_act.png"
+	            }
+	        ]
+	    },
+		
+		"globalStyle": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "uni-app",
+			"navigationBarBackgroundColor": "#F8F8F8",
+			"backgroundColor": "#F8F8F8",
+			"app-plus": {
+				"background": "#efeff4"
+			}
+		}
+}

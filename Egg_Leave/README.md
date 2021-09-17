@@ -1,7 +1,3 @@
-# test
-
-a
-
 ## QuickStart
 
 <!-- add docs here for user -->

@@ -1,2 +1,2 @@
 # Leave-uni-app
-Uni-app is a leave application for university students.
+### 基于Vue开发的在校师生请假uni-app。

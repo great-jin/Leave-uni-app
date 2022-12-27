@@ -1,2 +1,3 @@
 # Leave-uni-app
-### 基于Vue的学生请假APP。
+
+### 基于 Node.js 与 Vue 开发的学生请假APP。
